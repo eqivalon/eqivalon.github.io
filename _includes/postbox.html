@@ -1,19 +1,20 @@
 <!-- begin post -->
-<div class="after-post-tags">
-    <ul class="tags">
-        {% assign sortedCategories = page.categories | sort %}
-        {% for category in sortedCategories %}
-        <li>
-         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+
 {% assign author = site.authors[post.author] %}
 <div class="card">
     <a href="{{ post.url | absolute_url }}">
         {% if post.image %} <img class="rounded mb-4" src="{{ site.baseurl }}/{{ post.image }}" alt="{{ post.title }}"> {% endif %}
     </a>
+    <div class="after-post-tags">
+        <ul class="tags">
+            {% assign sortedCategories = page.categories | sort %}
+            {% for category in sortedCategories %}
+            <li>
+             <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
     <div class="card-block">
         <h2 class="card-title h4 serif-font"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
         <p class="card-text text-muted">{{ post.excerpt | strip_html | truncatewords:15 }}</p>
