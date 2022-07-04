@@ -10,6 +10,9 @@ topmenu:
 - title: Contact
   url: "contact/"
 
+- title: Wordpress
+  url: "https://eqivalon.wordpress.com/"
+
 
 # Footer Menu
 footermenu:
