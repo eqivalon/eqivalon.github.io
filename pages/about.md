@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ...
+title: Friendly reminder
 permalink: "/about/"
 image: assets/images/ilmu.png
 ---
