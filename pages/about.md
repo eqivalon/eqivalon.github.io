@@ -12,3 +12,7 @@ Ilmu ada tiga tahapan :
 
 ... Umar Bin Khattab
 
+<audio controls autoplay loop hidden>
+  <source src="/assets/audious/experience.mp3" type="audio/mpeg">
+</audio>
+
