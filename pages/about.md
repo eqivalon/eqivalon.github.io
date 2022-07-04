@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Ilmu
 permalink: "/about/"
 image: assets/images/ilmu.png
 ---
