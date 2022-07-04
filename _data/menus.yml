@@ -12,6 +12,7 @@ topmenu:
 
 - title: Wordpress
   url: "https://eqivalon.wordpress.com/"
+  external: true
 
 
 # Footer Menu
