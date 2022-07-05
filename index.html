@@ -7,7 +7,6 @@ background: '/img/bg-index.jpg'
 <!-- Home Intro
 ================================================== -->
 {% if page.url == "/" %} 
-<link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
 <div class="rounded mb-5 hero">
   <div class="row align-items-center justify-content-between">
     <div class="col-md-6">
@@ -16,10 +15,7 @@ background: '/img/bg-index.jpg'
       <a href="{{site.baseurl}}/about" class="btn btn-dark text-white px-5 btn-lg">About me</a>
     </div>
     <div class="col-md-6 text-right pl-0 pl-lg-4">
-      <div class="picture">
-        <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
-      </div>
-      <script src="/assets/js/app.js"></script>  
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">       
     </div>
   </div>
 </div>
