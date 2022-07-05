@@ -31,7 +31,16 @@ authors:
     email: eqivalon@gmail.com
     web: https://eqivalon.github.io
     twitter: https://twitter.com
-    description: "Owner of this pages"
+    description: "Pemilik Web"
+
+    anonim:
+    name: Anonim
+    display_name: Anonim
+    avatar: 'assets/images/anonim.jpg'
+    email: 
+    web: 
+    twitter: 
+    description: "Dialah anonim yang selalu ada disekitar kita"
 
 # Social
 social:
