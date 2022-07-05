@@ -4,6 +4,10 @@ layout: default
 permalink: "/blog.html"
 ---
 
-<main class="container">   
-    {{ content }}  
-</main>
+{% for post in site.posts %}
+{% if post.featured == true %}
+    <div class="col-md-4 mb-5">
+    {% include postbox.html %}
+    </div>
+{% endif %}
+{% endfor %}
