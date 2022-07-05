@@ -33,7 +33,7 @@ authors:
     twitter: https://twitter.com
     description: "Pemilik Web"
 
-    anonim:
+  anonim:
     name: Anonim
     display_name: Anonim
     avatar: 'assets/images/anonim.jpg'
