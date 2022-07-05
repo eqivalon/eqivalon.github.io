@@ -72,6 +72,11 @@ gtag('config', '{{site.ganalytics}}');
               <input type="search" id="search-input" placeholder="search...">
               <ul id="results-container"></ul>
             </div>
+            <div class="page-content">
+              <div class="wrapper">
+                {{ content }}
+              </div>
+            </div>
             <script>
               window.simpleJekyllSearch = new SimpleJekyllSearch({
                 searchInput: document.getElementById('search-input'),
