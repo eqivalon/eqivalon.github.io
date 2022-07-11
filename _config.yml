@@ -1,5 +1,5 @@
 title: "Eqivalon"
-email: eqivalon@gmail.com
+email: 
 timezone: UTC
 baseurl: ""
 permalink: "/:title/"
@@ -28,9 +28,9 @@ authors:
     name: Eqivalon
     display_name: Eqivalon
     avatar: 'assets/images/john.png'
-    email: eqivalon@gmail.com
-    web: https://eqivalon.github.io
-    twitter: https://twitter.com
+    email: 
+    web: 
+    instagram: https://www.instagram.com/eqivalon/
     description: "Pemilik Web"
 
   anonim:
@@ -39,8 +39,18 @@ authors:
     avatar: 'assets/images/anonim.jpg'
     email: 
     web: 
-    twitter: 
+    instagram: 
     description: "Dialah anonim yang selalu ada disekitar kita"
+
+  hamba:
+    name: Hamba Allah
+    display_name: Hamba Allah
+    avatar: 'assets/images/hamba.jpg'
+    email: 
+    web: 
+    instagram: https://www.instagram.com/
+    description: "Mencoba menjadi lebih baik"
+
 
 # Social
 social:
