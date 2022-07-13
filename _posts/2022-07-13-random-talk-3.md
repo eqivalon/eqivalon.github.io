@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kedewasaan seseorang tidak bisa hanya dilihat dengan umur"
+title: "Kedewasaan seseorang tidak bisa hanya dilihat dari umur"
 author: anonim
 categories: [ random talk ]
 image: assets/images/randomtalk3.jpg
