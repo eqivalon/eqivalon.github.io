@@ -11,11 +11,11 @@ image: assets/images/reminder1.jpg
 <code>ssh-keygen -t ed25519 -C "your_email@example.com"</code>
 
 3. Setelah itu akan muncul
-<div style="border: 1px solid black; padding: 10px;"> 
+<code> 
 > Enter a file in which to save the key (/home/YOU/.ssh/ALGORITHM):[Press enter]
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
 > Enter same passphrase again: [Type passphrase again]
-</div> 
+</code>
 Untuk mempermudah langsung enter saja
 
 4. Cek apakah ssh sudah jadi
