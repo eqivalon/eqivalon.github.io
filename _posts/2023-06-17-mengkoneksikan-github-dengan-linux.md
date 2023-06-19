@@ -46,7 +46,7 @@ atau
 kemudian
 <code>git push origin master</code>
 jika ingin menggunakan branch baru
-<code>git checkout [namabranch]
+<code>git checkout [namabranch]</code>
 jika ingin pindah branch
 
 Semoga berhasil
