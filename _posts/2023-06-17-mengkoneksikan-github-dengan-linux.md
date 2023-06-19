@@ -43,6 +43,8 @@ di folder yang ingin dijadikan repository
 atau
 <code>git add/rm "namafile"</code>
 kemudian
+<code>git commit -m "update"</code>
+upload ke branch dengan push
 <code>git push origin master</code>
 jika ingin menggunakan branch baru
 <code>git checkout [namabranch]</code>
