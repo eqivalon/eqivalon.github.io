@@ -3,14 +3,6 @@
 
 // start content
 
-$green:   #08a057 !default;
-$blue:    #3d61fd !default;
-
-@import 'bootstrap/bootstrap';
-
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
-
 /* add additional CSS rules below */
 html {
     scroll-behavior: smooth;
@@ -265,17 +257,18 @@ span.post-name,span.post-date,span.author-meta {
 }
 
 span.post-read-more a {
-	color:rgba(0,0,0,.44);
-     align-items: center;
-    display: inline-block;
-    float: right;
-     width: 30px;
+    color: rgba(0, 0, 0, .44);
+    align-items: center;
+    display: block;
+    width: 30px;
     height: 30px;
     line-height: 30px;
     text-align: center;
     border: 1px solid #d0d0d0;
     border-radius: 50%;
+    float: right;
 }
+
 span.post-name a,span.post-read-more a:hover {
 	color:rgba(0,0,0,.8);
 }
