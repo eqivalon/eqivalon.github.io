@@ -3,6 +3,46 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script type="text/javascript">
+  var ua = navigator.userAgent || navigator.vendor;
+  var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
+  var str = navigator.userAgent;
+  var i = str.indexOf("Instagram");
+  
+  // Fungsi untuk mendeteksi apakah perangkat pengguna adalah Android
+  function isAndroid() {
+    return ua.toLowerCase().indexOf("android") > -1;
+  }
+  
+  // Fungsi untuk mendeteksi apakah perangkat pengguna adalah iOS
+  function isiOS() {
+    return (
+      ua.match(/iPhone/i) ||
+      ua.match(/iPad/i) ||
+      ua.match(/iPod/i)
+    );
+  }
+  
+  // Fungsi untuk mengarahkan pengguna ke aplikasi browser
+  function redirectToBrowser() {
+    window.location.href = "https://eqivalon.github.io";
+  }
+  
+  // Periksa jika pengguna adalah Instagram
+  if (isInstagram) {
+    if (isiOS()) {
+      window.location.href = 'googlechrome://eqivalon.github.io';
+    } else if (isAndroid()) {
+      window.location.href = 'intent:https://eqivalon.github.io#Intent;end';
+    }
+  } else {
+    // Periksa jika pengguna adalah Android atau iOS, lalu arahkan ke aplikasi browser
+    if (isAndroid() || isiOS()) {
+      redirectToBrowser();
+    }
+  }
+</script>
+
 <link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
 
 <title>{{ page.title }} | {{site.title}}</title>
@@ -128,23 +168,6 @@ gtag('config', '{{site.ganalytics}}');
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>   
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script> 
-
-<script type="text/javascript">
-  var ua = navigator.userAgent || navigator.vendor;
-  var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
-  var str = navigator.userAgent;
-  var i = str.indexOf("Instagram");
-  if (isInstagram) {
-    if (/iPad|iPhone|iPod/.test(ua)) {
-      window.location.href = 'googlechrome://eqivalon.github.io';
-      return;
-    }
-    window.location.href = 'intent:https://eqivalon.github.io#Intent;end';
-    return;
-  }
-
-</script>
-
     
 </body>
     
