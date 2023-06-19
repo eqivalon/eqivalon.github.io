@@ -48,5 +48,3 @@ kemudian
 jika ingin menggunakan branch baru
 <code>git checkout [namabranch]</code>
 jika ingin pindah branch
-
-Semoga berhasil
