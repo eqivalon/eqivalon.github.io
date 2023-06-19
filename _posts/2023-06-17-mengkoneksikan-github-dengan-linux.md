@@ -14,6 +14,7 @@ image: assets/images/reminder1.jpg
 > Enter a file in which to save the key (/home/YOU/.ssh/ALGORITHM):[Press enter]
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
 > Enter same passphrase again: [Type passphrase again]
+
 Untuk mempermudah langsung enter saja
 
 4. Cek apakah ssh sudah jadi
