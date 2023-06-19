@@ -48,6 +48,9 @@ jika ingin menggunakan branch baru
 <code>git checkout [namabranch]</code>
 jika ingin pindah branch
 
+{% raw %}
 <audio controls autoplay loop volume="0.1" style="display: none;">
-  <source src="{{ '/assets/audios/golden hours.mp3' | relative_url }}" type="audio/mpeg">
+  <source src="{{ site.baseurl }}/assets/audios/golden hours.mp3" type="audio/mpeg">
 </audio>
+{% endraw %}
+
