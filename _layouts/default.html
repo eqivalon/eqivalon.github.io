@@ -3,6 +3,32 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<script type="text/javascript">
+  // Fungsi untuk mendeteksi apakah perangkat pengguna adalah Android
+  function isAndroid() {
+    return navigator.userAgent.toLowerCase().indexOf("android") > -1;
+  }
+  
+  // Fungsi untuk mendeteksi apakah perangkat pengguna adalah iOS
+  function isiOS() {
+    return (
+      navigator.userAgent.match(/iPhone/i) ||
+      navigator.userAgent.match(/iPad/i) ||
+      navigator.userAgent.match(/iPod/i)
+    );
+  }
+  
+  // Fungsi untuk mengarahkan pengguna ke aplikasi browser
+  function redirectToBrowser() {
+    window.location.href = "https://eqivalon.github.io";
+  }
+  
+  // Periksa jika pengguna adalah Android atau iOS, lalu arahkan ke aplikasi browser
+  if (isAndroid() || isiOS()) {
+    redirectToBrowser();
+  }
+</script>
 <link rel="icon" href="{{ site.baseurl }}/{{site.favicon}}">
 
 <title>{{ page.title }} | {{site.title}}</title>
