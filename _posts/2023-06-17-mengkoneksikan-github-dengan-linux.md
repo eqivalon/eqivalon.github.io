@@ -49,8 +49,9 @@ jika ingin menggunakan branch baru
 jika ingin pindah branch
 
 {% raw %}
-<audio controls autoplay loop volume="0.1" style="display: none;">
+<audio controls autoplay loop volume="0.1">
   <source src="{{ site.baseurl }}/assets/audios/golden hours.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
 </audio>
 {% endraw %}
 
