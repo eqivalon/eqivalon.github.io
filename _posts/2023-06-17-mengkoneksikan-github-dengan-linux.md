@@ -10,12 +10,10 @@ image: assets/images/reminder1.jpg
 2. Buat kunci ssh baru dengan label email yang digunakan github
 <code>ssh-keygen -t ed25519 -C "your_email@example.com"</code>
 
-3. Setelah itu akan muncul 
+3. Setelah itu akan muncul, Untuk mempermudah langsung enter saja 
 > Enter a file in which to save the key (/home/YOU/.ssh/ALGORITHM):[Press enter]
 > Enter passphrase (empty for no passphrase): [Type a passphrase]
 > Enter same passphrase again: [Type passphrase again]
-
-Untuk mempermudah langsung enter saja
 
 4. Cek apakah ssh sudah jadi
 <code>eval "$(ssh-agent -s)"</code>
