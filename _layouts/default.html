@@ -132,18 +132,17 @@ gtag('config', '{{site.ganalytics}}');
 <script type="text/javascript">
   var ua = navigator.userAgent || navigator.vendor;
   var isInstagram = (ua.indexOf('Instagram') > -1) ? true : false;
-  var isAndroid = ua.indexOf('Android') > -1;
-  var isiOS = /(iPhone|iPod|iPad)/i.test(ua);
-  
-  // Fungsi untuk mengarahkan pengguna ke aplikasi browser
-  function redirectToBrowser() {
-    window.location.href = "https://eqivalon.github.io";
+  var str = navigator.userAgent;
+  var i = str.indexOf("Instagram");
+  if (isInstagram) {
+    if (/iPad|iPhone|iPod/.test(ua)) {
+      window.location.href = 'googlechrome://eqivalon.github.io';
+      return;
+    }
+    window.location.href = 'intent:https://eqivalon.github.io#Intent;end';
+    return;
   }
-  
-  // Periksa jika pengguna adalah Instagram dan bukan di dalam aplikasi browser
-  if (isInstagram && !(isAndroid || isiOS)) {
-    redirectToBrowser();
-  }
+
 </script>
 
     
