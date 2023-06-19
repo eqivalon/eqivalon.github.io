@@ -48,6 +48,6 @@ jika ingin menggunakan branch baru
 <code>git checkout [namabranch]</code>
 jika ingin pindah branch
 
-<audio hidden autoplay loop volume="0.1">
-  <source src="/assets/audios/golden hours.mp3" type="audio/mpeg">
+<audio controls autoplay loop volume="0.1" style="display: none;">
+  <source src="{{ '/assets/audios/golden hours.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
